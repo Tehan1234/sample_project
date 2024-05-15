@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+body{
+   background-image: url("/img/backgroundimg.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.sample1{
+    background-color: green; 
+    color: rgb(34, 6, 6); 
+    text-align: center; 
+   
+    font-family: "Jacquard 12", system-ui;  
+}
+.sample2{
+    background-color: rgb(128, 0, 0); 
+    color: rgb(13, 1, 1); 
+    text-align: center; 
+   
+    font-family: "Jacquard 12", system-ui; 
+    padding: 10px 20px 50px 20px; 
+}
+.sample3{
+    background-color: rgb(124, 0, 128); 
+    color: rgb(13, 1, 1); 
+    text-align: center;
+    font-family: "Jacquard 12", system-ui; 
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+p{
+    background-color: brown;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: rgb(18, 13, 13);
+}
+  
+.par{
+    background-color: rgb(114, 20, 203);
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+}
+#sample{
+    background-color: cadetblue;
+    color: white;
+}
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(195, 255, 0);
+    position: sticky;
+    top: 10px;
+    z-index: -1;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 43); 
+}
+    
+   
+    
+
+
+
